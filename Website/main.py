@@ -3,7 +3,7 @@ import pre_app
 import app
 
 def set_page_config():
-    st.set_page_config(page_title="IPL Predictor", page_icon="🏏", layout="wide")
+    st.set_page_config(page_title="Crickcast", page_icon="🏏", layout="wide")
 
 def apply_custom_css():
     st.markdown("""
@@ -58,7 +58,8 @@ def apply_custom_css():
     """, unsafe_allow_html=True)
 
 def show_home_page():
-    st.markdown("<h1 style='text-align: center; color: #ffffff;'>Welcome to IPL Predictor</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: #ffffff;'>Welcome to Crickcast</h1>", unsafe_allow_html=True)
+    st.markdown("<p class='medium-font' style='text-align: center;'>Your Ultimate Cricket Companion!</p>", unsafe_allow_html=True)
     st.markdown("<p class='medium-font' style='text-align: center;'>Choose your prediction type</p>", unsafe_allow_html=True)
 
     col1, col2 = st.columns(2)
